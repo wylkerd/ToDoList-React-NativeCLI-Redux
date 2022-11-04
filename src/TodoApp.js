@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import {TodoList} from './components/TodoList';
 import {AddTodo} from './components/AddTodo';

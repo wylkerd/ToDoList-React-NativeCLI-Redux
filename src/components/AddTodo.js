@@ -39,11 +39,14 @@ export const AddTodo = () => {
 const styles = StyleSheet.create({
   container: {
     margin: 2,
+    // display: 'flex',
+    // flexDirection: 'row',
   },
   input: {
     backgroundColor: 'ghostwhite',
     marginBottom: 8,
     padding: 8,
     height: 40,
+    width: 200,
   },
 });
