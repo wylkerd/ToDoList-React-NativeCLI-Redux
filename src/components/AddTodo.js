@@ -31,7 +31,7 @@ export const AddTodo = () => {
         onChangeText={setText}
         style={styles.input}
       />
-      <Button title="Add" onPress={handleSubmit} />
+      <Button title="Add" onPress={handleSubmit} color={'#fab803'} />
     </View>
   );
 };
